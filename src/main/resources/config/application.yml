@@ -1,0 +1,18 @@
+# ===================================================================
+# Spring Boot configuration for the "dev" profile.
+# ===================================================================
+security:
+  user:
+    password: user
+spring:
+  profiles:
+      active: dev
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test
+  main:
+    show_banner: false
+server:
+  port: 4567

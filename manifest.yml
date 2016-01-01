@@ -1,0 +1,7 @@
+applications:
+ - name: SpringBootMongoDBCloud
+   memory: 500M
+   path: ./target/SpringBoot-MongoDB-Cloud-0.0.1.war
+   instances: 1
+   host: SpringBootMongoDBCloud
+   buildpack: java_buildpack
